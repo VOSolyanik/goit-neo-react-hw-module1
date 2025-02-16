@@ -1,0 +1,31 @@
+.friendCard {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 4px;
+  padding: 1rem;
+  align-items: center;
+  border: 2px solid #000;
+  width: 100px;
+  transition: 200ms transform;
+}
+
+.friendCard:hover {
+  transform: scale(1.05);
+}
+
+.friendAvatar {
+  width: 60px;
+}
+
+.friendStatus {
+  font-weight: 600;
+}
+
+.online {
+  color: #317a1c;
+}
+
+.offline {
+  color: #e92d1d;
+}

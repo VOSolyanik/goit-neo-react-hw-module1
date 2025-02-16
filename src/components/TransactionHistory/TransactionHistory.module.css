@@ -1,0 +1,27 @@
+.table {
+  margin: 2rem auto 0;
+  max-width: 512px;
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.tableHead {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.tableHead th {
+  padding: 0.25rem;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.tableRow td {
+  padding: 0.25rem;
+  border: 1px solid #2a2a2a;
+  text-align: center;
+  text-transform: capitalize;
+}
